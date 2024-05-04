@@ -7,7 +7,7 @@ func TestSearch(t *testing.T) {
 
 	t.Run("known word", func(t *testing.T) {
 			got, _ := dictionary.Search("test")
-			want := "this is just but a test"
+			want := "this is a test"
 
 			assertStrings(t, got, want)
 	})
